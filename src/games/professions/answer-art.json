@@ -1,0 +1,246 @@
+{
+  "answer-ball.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 0
+  },
+  "answer-balloon.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 1
+  },
+  "answer-bandage.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 2
+  },
+  "answer-bell.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 3
+  },
+  "answer-bike.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 4
+  },
+  "answer-binoculars.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 5
+  },
+  "answer-boat.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 6
+  },
+  "answer-book.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 7
+  },
+  "answer-box.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 8
+  },
+  "answer-bricks.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 13
+  },
+  "answer-bucket.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 10
+  },
+  "answer-candy.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 11
+  },
+  "answer-cap.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 12
+  },
+  "answer-clock.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 13
+  },
+  "answer-comb.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 14
+  },
+  "answer-crane.png": {
+    "file": "answer-atlas-0.png",
+    "cell": 15
+  },
+  "answer-crosswalk.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 0
+  },
+  "answer-dryer.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 1
+  },
+  "answer-eraser.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 2
+  },
+  "answer-flower.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 3
+  },
+  "answer-flowerbed.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 4
+  },
+  "answer-foot.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 5
+  },
+  "answer-fridge.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 6
+  },
+  "answer-glass.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 7
+  },
+  "answer-gloves.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 8
+  },
+  "answer-hammer.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 9
+  },
+  "answer-hand.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 10
+  },
+  "answer-hat.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 11
+  },
+  "answer-kettle.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 12
+  },
+  "answer-ladder.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 13
+  },
+  "answer-ladle.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 14
+  },
+  "answer-lamp.png": {
+    "file": "answer-atlas-1.png",
+    "cell": 15
+  },
+  "answer-level.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 0
+  },
+  "answer-lights-br.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 1
+  },
+  "answer-lights-gy.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 2
+  },
+  "answer-lights-wb.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 3
+  },
+  "answer-mask.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 4
+  },
+  "answer-medicine.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 5
+  },
+  "answer-mirror.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 6
+  },
+  "answer-notebook.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 7
+  },
+  "answer-paint.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 8
+  },
+  "answer-paper.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 9
+  },
+  "answer-pencil.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 10
+  },
+  "answer-pillow.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 11
+  },
+  "answer-plate.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 12
+  },
+  "answer-pot.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 13
+  },
+  "answer-rain.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 14
+  },
+  "answer-ruler.png": {
+    "file": "answer-atlas-2.png",
+    "cell": 15
+  },
+  "answer-scarf.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 0
+  },
+  "answer-scissors.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 1
+  },
+  "answer-shampoo.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 2
+  },
+  "answer-shovel.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 3
+  },
+  "answer-siren.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 4
+  },
+  "answer-soup.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 5
+  },
+  "answer-spoon.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 6
+  },
+  "answer-stairs.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 7
+  },
+  "answer-stethoscope.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 8
+  },
+  "answer-thermometer.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 9
+  },
+  "answer-traffic.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 10
+  },
+  "answer-train.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 11
+  },
+  "answer-water.png": {
+    "file": "answer-atlas-3.png",
+    "cell": 12
+  }
+}

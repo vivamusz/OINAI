@@ -1,0 +1,1547 @@
+{
+  "map": {
+    "image": "images/hero-city-map.jpg",
+    "viewBox": "0 0 1263 848"
+  },
+  "board": {
+    "aspectRatio": "1712/1152"
+  },
+  "pieceOrder": [
+    "tl",
+    "tr",
+    "bl",
+    "br",
+    "person"
+  ],
+  "finale": {
+    "image": "images/finale.jpg"
+  },
+  "professions": [
+    {
+      "id": "fire",
+      "title": {
+        "kk": "Өрт сөндіруші",
+        "ru": "Пожарный"
+      },
+      "map": {
+        "cx": 220,
+        "cy": 250,
+        "d": "M 150 36 L 210 36 L 240 90 L 250 150 L 360 175 L 370 400 L 80 410 L 70 200 L 130 155 Z"
+      },
+      "guide": "images/firefighter-guide.jpg",
+      "original": "images/firefighter-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/firefighter-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/firefighter-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/firefighter-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/firefighter-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/firefighter-person.png",
+          "x": 0.35689252336448596,
+          "y": 0.2586805555555556,
+          "w": 0.21378504672897197,
+          "h": 0.7352430555555556
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Өрт сөндіру жеңімен не ағады?",
+            "ru": "Что течёт по пожарному рукаву?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Су",
+                "ru": "Вода"
+              },
+              "ok": true,
+              "image": "images/answer-water.png"
+            },
+            {
+              "text": {
+                "kk": "Кітап",
+                "ru": "Книга"
+              },
+              "ok": false,
+              "image": "images/answer-book.png"
+            },
+            {
+              "text": {
+                "kk": "Доп",
+                "ru": "Мяч"
+              },
+              "ok": false,
+              "image": "images/answer-ball.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Қызыл үлкен көліктің төбесінде не жыпылықтайды?",
+            "ru": "Что мигает на крыше большой красной машины?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Маяк",
+                "ru": "Проблесковый маячок"
+              },
+              "ok": true,
+              "image": "images/answer-siren.png"
+            },
+            {
+              "text": {
+                "kk": "Шар",
+                "ru": "Воздушный шар"
+              },
+              "ok": false,
+              "image": "images/answer-balloon.png"
+            },
+            {
+              "text": {
+                "kk": "Гүл",
+                "ru": "Цветок"
+              },
+              "ok": false,
+              "image": "images/answer-flower.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Қолғапты көрсет.",
+            "ru": "Покажи перчатки."
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Маска",
+                "ru": "Маска"
+              },
+              "ok": false,
+              "image": "images/answer-mask.png"
+            },
+            {
+              "text": {
+                "kk": "Қолғап",
+                "ru": "Перчатки"
+              },
+              "ok": true,
+              "image": "images/answer-gloves.png"
+            },
+            {
+              "text": {
+                "kk": "Бас киім",
+                "ru": "Шапка"
+              },
+              "ok": false,
+              "image": "images/answer-hat.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Өрт сөндірушіге биік терезеге жетуге не көмектеседі?",
+            "ru": "Что помогает пожарному добраться до высокого окна?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Ұзын саты",
+                "ru": "Длинная лестница"
+              },
+              "ok": true,
+              "image": "images/answer-ladder.png"
+            },
+            {
+              "text": {
+                "kk": "Жастық",
+                "ru": "Подушка"
+              },
+              "ok": false,
+              "image": "images/answer-pillow.png"
+            },
+            {
+              "text": {
+                "kk": "Қалпақ",
+                "ru": "Кепка"
+              },
+              "ok": false,
+              "image": "images/answer-cap.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Өрт сөндіруші",
+                "ru": "Пожарный"
+              },
+              "ok": true,
+              "image": "images/answer-firefighter.png"
+            },
+            {
+              "text": {
+                "kk": "Аспазшы",
+                "ru": "Повар"
+              },
+              "ok": false,
+              "image": "images/answer-chef.png"
+            },
+            {
+              "text": {
+                "kk": "Мұғалім",
+                "ru": "Учитель"
+              },
+              "ok": false,
+              "image": "images/answer-teacher.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doctor",
+      "title": {
+        "kk": "Дәрігер",
+        "ru": "Врач"
+      },
+      "map": {
+        "cx": 630,
+        "cy": 200,
+        "d": "M 500 200 L 530 130 L 600 55 L 680 55 L 750 140 L 770 200 L 770 320 L 490 330 Z"
+      },
+      "guide": "images/doctor-guide.jpg",
+      "original": "images/doctor-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/doctor-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/doctor-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/doctor-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/doctor-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/doctor-person.png",
+          "x": 0.2786214953271028,
+          "y": 0.2647569444444444,
+          "w": 0.2207943925233645,
+          "h": 0.7352430555555556
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Адамның денесі ыстық па, суық па екенін немен білеміз?",
+            "ru": "Чем измеряют температуру тела?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Градусникпен",
+                "ru": "Термометром"
+              },
+              "ok": true,
+              "image": "images/answer-thermometer.png"
+            },
+            {
+              "text": {
+                "kk": "Сызғышпен",
+                "ru": "Линейкой"
+              },
+              "ok": false,
+              "image": "images/answer-ruler.png"
+            },
+            {
+              "text": {
+                "kk": "Тарақпен",
+                "ru": "Расчёской"
+              },
+              "ok": false,
+              "image": "images/answer-comb.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Құлаққа салып тыңдайтын дөңгелек құрал қалай аталады?",
+            "ru": "Как называется инструмент, которым врач слушает сердце?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Стетоскоп",
+                "ru": "Стетоскоп"
+              },
+              "ok": true,
+              "image": "images/answer-stethoscope.png"
+            },
+            {
+              "text": {
+                "kk": "Дүрбі",
+                "ru": "Бинокль"
+              },
+              "ok": false,
+              "image": "images/answer-binoculars.png"
+            },
+            {
+              "text": {
+                "kk": "Сағат",
+                "ru": "Часы"
+              },
+              "ok": false,
+              "image": "images/answer-clock.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Дәрі құтысын тап.",
+            "ru": "Найди флакон с лекарством."
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Дәрі құтысы",
+                "ru": "Флакон с лекарством"
+              },
+              "ok": true,
+              "image": "images/answer-medicine.png"
+            },
+            {
+              "text": {
+                "kk": "Шәйнек",
+                "ru": "Чайник"
+              },
+              "ok": false,
+              "image": "images/answer-kettle.png"
+            },
+            {
+              "text": {
+                "kk": "Шелек",
+                "ru": "Ведро"
+              },
+              "ok": false,
+              "image": "images/answer-bucket.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Ересек адам кішкентай жараны немен жаба алады?",
+            "ru": "Чем взрослый может закрыть небольшую ранку?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Дәкемен немесе пластырьмен",
+                "ru": "Бинтом или пластырем"
+              },
+              "ok": true,
+              "image": "images/answer-bandage.png"
+            },
+            {
+              "text": {
+                "kk": "Қағазбен",
+                "ru": "Бумагой"
+              },
+              "ok": false,
+              "image": "images/answer-paper.png"
+            },
+            {
+              "text": {
+                "kk": "Шарфпен",
+                "ru": "Шарфом"
+              },
+              "ok": false,
+              "image": "images/answer-scarf.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Дәрігер",
+                "ru": "Врач"
+              },
+              "ok": true,
+              "image": "images/answer-doctor.png"
+            },
+            {
+              "text": {
+                "kk": "Құрылысшы",
+                "ru": "Строитель"
+              },
+              "ok": false,
+              "image": "images/answer-builder.png"
+            },
+            {
+              "text": {
+                "kk": "Шаштараз",
+                "ru": "Парикмахер"
+              },
+              "ok": false,
+              "image": "images/answer-hairdresser.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teacher",
+      "title": {
+        "kk": "Мұғалім",
+        "ru": "Учитель"
+      },
+      "map": {
+        "cx": 1060,
+        "cy": 230,
+        "d": "M 890 200 L 930 120 L 1040 70 L 1160 40 L 1220 110 L 1230 390 L 900 400 Z"
+      },
+      "guide": "images/teacher-guide.jpg",
+      "original": "images/teacher-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/teacher-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/teacher-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/teacher-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/teacher-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/teacher-person.png",
+          "x": 0.5286214953271028,
+          "y": 0.1362847222222222,
+          "w": 0.21728971962616822,
+          "h": 0.5859375
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Әріптерді жазуға не көмектеседі?",
+            "ru": "Чем можно писать буквы?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Қарындаш",
+                "ru": "Карандашом"
+              },
+              "ok": true,
+              "image": "images/answer-pencil.png"
+            },
+            {
+              "text": {
+                "kk": "Қасық",
+                "ru": "Ложкой"
+              },
+              "ok": false,
+              "image": "images/answer-spoon.png"
+            },
+            {
+              "text": {
+                "kk": "Балға",
+                "ru": "Молотком"
+              },
+              "ok": false,
+              "image": "images/answer-hammer.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Сандар мен суреттер салатын ақ парақтардан не жасаймыз?",
+            "ru": "Где пишут цифры и рисуют на белых страницах?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Дәптер",
+                "ru": "В тетради"
+              },
+              "ok": true,
+              "image": "images/answer-notebook.png"
+            },
+            {
+              "text": {
+                "kk": "Табақ",
+                "ru": "На тарелке"
+              },
+              "ok": false,
+              "image": "images/answer-plate.png"
+            },
+            {
+              "text": {
+                "kk": "Кірпіш",
+                "ru": "На кирпиче"
+              },
+              "ok": false,
+              "image": "images/answer-bricks.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Балалар сабақ басталғанда нені күтеді?",
+            "ru": "Что сообщает о начале урока?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Қоңырауды",
+                "ru": "Звонок"
+              },
+              "ok": true,
+              "image": "images/answer-bell.png"
+            },
+            {
+              "text": {
+                "kk": "Поездті",
+                "ru": "Поезд"
+              },
+              "ok": false,
+              "image": "images/answer-train.png"
+            },
+            {
+              "text": {
+                "kk": "Жаңбырды",
+                "ru": "Дождь"
+              },
+              "ok": false,
+              "image": "images/answer-rain.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Қарындашпен жазылғанды немен өшіреміз?",
+            "ru": "Чем стирают написанное карандашом?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Өшіргішпен",
+                "ru": "Ластиком"
+              },
+              "ok": true,
+              "image": "images/answer-eraser.png"
+            },
+            {
+              "text": {
+                "kk": "Сумен",
+                "ru": "Водой"
+              },
+              "ok": false,
+              "image": "images/answer-water.png"
+            },
+            {
+              "text": {
+                "kk": "Қайшымен",
+                "ru": "Ножницами"
+              },
+              "ok": false,
+              "image": "images/answer-scissors.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Мұғалім",
+                "ru": "Учитель"
+              },
+              "ok": true,
+              "image": "images/answer-teacher.png"
+            },
+            {
+              "text": {
+                "kk": "Полиция қызметкері",
+                "ru": "Полицейский"
+              },
+              "ok": false,
+              "image": "images/answer-police.png"
+            },
+            {
+              "text": {
+                "kk": "Өрт сөндіруші",
+                "ru": "Пожарный"
+              },
+              "ok": false,
+              "image": "images/answer-firefighter.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chef",
+      "title": {
+        "kk": "Аспазшы",
+        "ru": "Повар"
+      },
+      "map": {
+        "cx": 170,
+        "cy": 650,
+        "d": "M 8 620 L 40 540 L 160 500 L 300 530 L 340 600 L 340 780 L 8 790 Z"
+      },
+      "guide": "images/chef-guide.jpg",
+      "original": "images/chef-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/chef-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/chef-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/chef-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/chef-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/chef-person.png",
+          "x": 0.5052570093457944,
+          "y": 0.1623263888888889,
+          "w": 0.2523364485981308,
+          "h": 0.8376736111111112
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Сорпа пісетін үлкен ыдыс қалай аталады?",
+            "ru": "Как называется большая посуда для варки супа?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Қазан",
+                "ru": "Кастрюля"
+              },
+              "ok": true,
+              "image": "images/answer-pot.png"
+            },
+            {
+              "text": {
+                "kk": "Шыны",
+                "ru": "Стакан"
+              },
+              "ok": false,
+              "image": "images/answer-glass.png"
+            },
+            {
+              "text": {
+                "kk": "Қорап",
+                "ru": "Коробка"
+              },
+              "ok": false,
+              "image": "images/answer-box.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Қамырды пешке салмас бұрын немен илейміз?",
+            "ru": "Чем повар месит тесто?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Қолмен",
+                "ru": "Руками"
+              },
+              "ok": true,
+              "image": "images/answer-hand.png"
+            },
+            {
+              "text": {
+                "kk": "Аяқпен",
+                "ru": "Ногами"
+              },
+              "ok": false,
+              "image": "images/answer-foot.png"
+            },
+            {
+              "text": {
+                "kk": "Балғамен",
+                "ru": "Молотком"
+              },
+              "ok": false,
+              "image": "images/answer-hammer.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Ыстық тамақты немен араластырамыз?",
+            "ru": "Чем повар размешивает суп?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Ожаумен",
+                "ru": "Половником"
+              },
+              "ok": true,
+              "image": "images/answer-ladle.png"
+            },
+            {
+              "text": {
+                "kk": "Қаламмен",
+                "ru": "Карандашом"
+              },
+              "ok": false,
+              "image": "images/answer-pencil.png"
+            },
+            {
+              "text": {
+                "kk": "Сызғышпен",
+                "ru": "Линейкой"
+              },
+              "ok": false,
+              "image": "images/answer-ruler.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Тамақ пісіретін жерде қандай иіс шығады?",
+            "ru": "Чем пахнет на кухне, когда повар готовит обед?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Дәмді тамақтың иісі",
+                "ru": "Вкусной едой"
+              },
+              "ok": true,
+              "image": "images/answer-soup.png"
+            },
+            {
+              "text": {
+                "kk": "Бояудың иісі",
+                "ru": "Краской"
+              },
+              "ok": false,
+              "image": "images/answer-paint.png"
+            },
+            {
+              "text": {
+                "kk": "Жаңбырдың иісі",
+                "ru": "Дождём"
+              },
+              "ok": false,
+              "image": "images/answer-rain.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Аспазшы",
+                "ru": "Повар"
+              },
+              "ok": true,
+              "image": "images/answer-chef.png"
+            },
+            {
+              "text": {
+                "kk": "Дәрігер",
+                "ru": "Врач"
+              },
+              "ok": false,
+              "image": "images/answer-doctor.png"
+            },
+            {
+              "text": {
+                "kk": "Мұғалім",
+                "ru": "Учитель"
+              },
+              "ok": false,
+              "image": "images/answer-teacher.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "builder",
+      "title": {
+        "kk": "Құрылысшы",
+        "ru": "Строитель"
+      },
+      "map": {
+        "cx": 670,
+        "cy": 500,
+        "d": "M 530 470 L 600 360 L 680 340 L 760 400 L 830 470 L 820 650 L 520 640 Z"
+      },
+      "guide": "images/builder-guide.jpg",
+      "original": "images/builder-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/builder-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/builder-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/builder-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/builder-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/builder-person.png",
+          "x": 0.19742990654205608,
+          "y": 0.1779513888888889,
+          "w": 0.3282710280373832,
+          "h": 0.7274305555555556
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Үйдің қабырғасын неден қалайды?",
+            "ru": "Из чего можно построить стену дома?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Кірпіштен",
+                "ru": "Из кирпичей"
+              },
+              "ok": true,
+              "image": "images/answer-bricks.png"
+            },
+            {
+              "text": {
+                "kk": "Кәмпиттен",
+                "ru": "Из конфет"
+              },
+              "ok": false,
+              "image": "images/answer-candy.png"
+            },
+            {
+              "text": {
+                "kk": "Қағаздан",
+                "ru": "Из бумаги"
+              },
+              "ok": false,
+              "image": "images/answer-paper.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Шегені қағуға қандай құрал керек?",
+            "ru": "Какой инструмент нужен, чтобы забить гвоздь?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Балға",
+                "ru": "Молоток"
+              },
+              "ok": true,
+              "image": "images/answer-hammer.png"
+            },
+            {
+              "text": {
+                "kk": "Қайшы",
+                "ru": "Ножницы"
+              },
+              "ok": false,
+              "image": "images/answer-scissors.png"
+            },
+            {
+              "text": {
+                "kk": "Тарақ",
+                "ru": "Расчёска"
+              },
+              "ok": false,
+              "image": "images/answer-comb.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Қабырға түзу ме, қисық па екенін немен тексереді?",
+            "ru": "Чем проверяют, ровная ли стена?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Деңгей өлшегішпен",
+                "ru": "Строительным уровнем"
+              },
+              "ok": true,
+              "image": "images/answer-level.png"
+            },
+            {
+              "text": {
+                "kk": "Сағатпен",
+                "ru": "Часами"
+              },
+              "ok": false,
+              "image": "images/answer-clock.png"
+            },
+            {
+              "text": {
+                "kk": "Градусникпен",
+                "ru": "Термометром"
+              },
+              "ok": false,
+              "image": "images/answer-thermometer.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Ауыр заттарды биікке көтеретін үлкен машина қалай аталады?",
+            "ru": "Какая большая машина поднимает тяжёлые грузы?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Кран",
+                "ru": "Подъёмный кран"
+              },
+              "ok": true,
+              "image": "images/answer-crane.png"
+            },
+            {
+              "text": {
+                "kk": "Велосипед",
+                "ru": "Велосипед"
+              },
+              "ok": false,
+              "image": "images/answer-bike.png"
+            },
+            {
+              "text": {
+                "kk": "Қайық",
+                "ru": "Лодка"
+              },
+              "ok": false,
+              "image": "images/answer-boat.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Құрылысшы",
+                "ru": "Строитель"
+              },
+              "ok": true,
+              "image": "images/answer-builder.png"
+            },
+            {
+              "text": {
+                "kk": "Шаштараз",
+                "ru": "Парикмахер"
+              },
+              "ok": false,
+              "image": "images/answer-hairdresser.png"
+            },
+            {
+              "text": {
+                "kk": "Аспазшы",
+                "ru": "Повар"
+              },
+              "ok": false,
+              "image": "images/answer-chef.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "police",
+      "title": {
+        "kk": "Полиция қызметкері",
+        "ru": "Полицейский"
+      },
+      "map": {
+        "cx": 930,
+        "cy": 590,
+        "d": "M 820 560 L 880 480 L 960 470 L 1040 530 L 1050 700 L 830 710 Z"
+      },
+      "guide": "images/police-guide.jpg",
+      "original": "images/police-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/police-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/police-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/police-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/police-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/police-person.png",
+          "x": 0.4094626168224299,
+          "y": 0.2013888888888889,
+          "w": 0.2675233644859813,
+          "h": 0.7986111111111112
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Жолда көліктердің тоқтауын және жүруін не көрсетеді?",
+            "ru": "Что показывает водителям, когда остановиться и когда ехать?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Бағдаршам",
+                "ru": "Светофор"
+              },
+              "ok": true,
+              "image": "images/answer-traffic.png"
+            },
+            {
+              "text": {
+                "kk": "Айна",
+                "ru": "Зеркало"
+              },
+              "ok": false,
+              "image": "images/answer-mirror.png"
+            },
+            {
+              "text": {
+                "kk": "Шам",
+                "ru": "Лампа"
+              },
+              "ok": false,
+              "image": "images/answer-lamp.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Көшеде тәртіп бұзылса, адамдар кімге хабарласады?",
+            "ru": "К кому обращаются, если на улице нарушают порядок?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Полицияға",
+                "ru": "К полицейскому"
+              },
+              "ok": true,
+              "image": "images/answer-police.png"
+            },
+            {
+              "text": {
+                "kk": "Аспазға",
+                "ru": "К повару"
+              },
+              "ok": false,
+              "image": "images/answer-chef.png"
+            },
+            {
+              "text": {
+                "kk": "Шаштаразға",
+                "ru": "К парикмахеру"
+              },
+              "ok": false,
+              "image": "images/answer-hairdresser.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Көшеде жолдан өтуге көмектесетін жолақ қалай аталады?",
+            "ru": "Как называется место с полосками для перехода дороги?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Жаяу жүргіншілер өткелі",
+                "ru": "Пешеходный переход"
+              },
+              "ok": true,
+              "image": "images/answer-crosswalk.png"
+            },
+            {
+              "text": {
+                "kk": "Баспалдақ",
+                "ru": "Лестница"
+              },
+              "ok": false,
+              "image": "images/answer-stairs.png"
+            },
+            {
+              "text": {
+                "kk": "Гүлзар",
+                "ru": "Клумба"
+              },
+              "ok": false,
+              "image": "images/answer-flowerbed.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Көк және қызыл жарқылдақ шамдарды тап.",
+            "ru": "Найди синие и красные проблесковые огни."
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Көк және қызыл",
+                "ru": "Синие и красные"
+              },
+              "ok": true,
+              "image": "images/answer-lights-br.png"
+            },
+            {
+              "text": {
+                "kk": "Жасыл және сары",
+                "ru": "Зелёные и жёлтые"
+              },
+              "ok": false,
+              "image": "images/answer-lights-gy.png"
+            },
+            {
+              "text": {
+                "kk": "Ақ және қара",
+                "ru": "Белые и чёрные"
+              },
+              "ok": false,
+              "image": "images/answer-lights-wb.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Полиция қызметкері",
+                "ru": "Полицейский"
+              },
+              "ok": true,
+              "image": "images/answer-police.png"
+            },
+            {
+              "text": {
+                "kk": "Мұғалім",
+                "ru": "Учитель"
+              },
+              "ok": false,
+              "image": "images/answer-teacher.png"
+            },
+            {
+              "text": {
+                "kk": "Дәрігер",
+                "ru": "Врач"
+              },
+              "ok": false,
+              "image": "images/answer-doctor.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon",
+      "title": {
+        "kk": "Шаштараз",
+        "ru": "Парикмахер"
+      },
+      "map": {
+        "cx": 1140,
+        "cy": 640,
+        "d": "M 1000 600 L 1080 510 L 1200 500 L 1260 560 L 1260 770 L 1040 780 Z"
+      },
+      "guide": "images/hairdresser-guide.jpg",
+      "original": "images/hairdresser-original.jpg",
+      "pieces": [
+        {
+          "id": "tl",
+          "src": "images/hairdresser-piece-tl.png",
+          "x": 0,
+          "y": 0,
+          "w": 0.5397196261682243,
+          "h": 0.5633680555555556
+        },
+        {
+          "id": "tr",
+          "src": "images/hairdresser-piece-tr.png",
+          "x": 0.4889018691588785,
+          "y": 0,
+          "w": 0.5110981308411215,
+          "h": 0.5173611111111112
+        },
+        {
+          "id": "bl",
+          "src": "images/hairdresser-piece-bl.png",
+          "x": 0,
+          "y": 0.4835069444444444,
+          "w": 0.5116822429906542,
+          "h": 0.5164930555555556
+        },
+        {
+          "id": "br",
+          "src": "images/hairdresser-piece-br.png",
+          "x": 0.45560747663551404,
+          "y": 0.4383680555555556,
+          "w": 0.544392523364486,
+          "h": 0.5616319444444444
+        },
+        {
+          "id": "person",
+          "src": "images/hairdresser-person.png",
+          "x": 0.4258177570093458,
+          "y": 0.1545138888888889,
+          "w": 0.26401869158878505,
+          "h": 0.8446180555555556
+        }
+      ],
+      "quiz": [
+        {
+          "q": {
+            "kk": "Шашты қысқартуға қандай құрал керек?",
+            "ru": "Каким инструментом парикмахер стрижёт волосы?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Қайшы",
+                "ru": "Ножницами"
+              },
+              "ok": true,
+              "image": "images/answer-scissors.png"
+            },
+            {
+              "text": {
+                "kk": "Балға",
+                "ru": "Молотком"
+              },
+              "ok": false,
+              "image": "images/answer-hammer.png"
+            },
+            {
+              "text": {
+                "kk": "Күрек",
+                "ru": "Лопатой"
+              },
+              "ok": false,
+              "image": "images/answer-shovel.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Шашты ретке келтіру үшін не қолданамыз?",
+            "ru": "Чем расчёсывают волосы?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Тарақ",
+                "ru": "Расчёской"
+              },
+              "ok": true,
+              "image": "images/answer-comb.png"
+            },
+            {
+              "text": {
+                "kk": "Кірпіш",
+                "ru": "Кирпичом"
+              },
+              "ok": false,
+              "image": "images/answer-bricks.png"
+            },
+            {
+              "text": {
+                "kk": "Қазан",
+                "ru": "Кастрюлей"
+              },
+              "ok": false,
+              "image": "images/answer-pot.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Шашты көпіртіп жуатын сұйықтық қалай аталады?",
+            "ru": "Как называется пенящееся средство для мытья волос?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Сусабын",
+                "ru": "Шампунь"
+              },
+              "ok": true,
+              "image": "images/answer-shampoo.png"
+            },
+            {
+              "text": {
+                "kk": "Сорпа",
+                "ru": "Суп"
+              },
+              "ok": false,
+              "image": "images/answer-soup.png"
+            },
+            {
+              "text": {
+                "kk": "Бояу",
+                "ru": "Краска"
+              },
+              "ok": false,
+              "image": "images/answer-paint.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Шашты кептіру үшін қандай құрал пайдаланады?",
+            "ru": "Каким прибором парикмахер сушит волосы?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Фен",
+                "ru": "Феном"
+              },
+              "ok": true,
+              "image": "images/answer-dryer.png"
+            },
+            {
+              "text": {
+                "kk": "Тоңазытқыш",
+                "ru": "Холодильником"
+              },
+              "ok": false,
+              "image": "images/answer-fridge.png"
+            },
+            {
+              "text": {
+                "kk": "Кран",
+                "ru": "Подъёмным краном"
+              },
+              "ok": false,
+              "image": "images/answer-crane.png"
+            }
+          ]
+        },
+        {
+          "q": {
+            "kk": "Бұл кім?",
+            "ru": "Кто это?"
+          },
+          "choices": [
+            {
+              "text": {
+                "kk": "Шаштараз",
+                "ru": "Парикмахер"
+              },
+              "ok": true,
+              "image": "images/answer-hairdresser.png"
+            },
+            {
+              "text": {
+                "kk": "Өрт сөндіруші",
+                "ru": "Пожарный"
+              },
+              "ok": false,
+              "image": "images/answer-firefighter.png"
+            },
+            {
+              "text": {
+                "kk": "Құрылысшы",
+                "ru": "Строитель"
+              },
+              "ok": false,
+              "image": "images/answer-builder.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
