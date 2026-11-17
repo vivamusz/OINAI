@@ -8,6 +8,7 @@ games.splice(7,0,{id:'professions',title:{kk:'Мамандықтар',ru:'Про
 export const playableGames=games.filter(game=>game.ready);
 export function routeFromHash(hash){
  if(hash===''||hash==='#/')return 'home';
+ if(hash==='#/journeys/safe-world')return 'safe-world';
  const id=hash.startsWith('#/')?hash.slice(2):null;
  return playableGames.some(game=>game.id===id)?id:'notfound';
 }

@@ -1,0 +1,1136 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "id": "G01",
+      "number": 1,
+      "title": "Действия при ЧС (есть)",
+      "targetEngine": "M01",
+      "age": "4–7",
+      "status": "existing-game-needs-engine-adapter",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G02",
+      "number": 2,
+      "title": "Профессии (есть)",
+      "targetEngine": "M02",
+      "age": "4–7",
+      "status": "existing-game-needs-engine-adapter",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G03",
+      "number": 3,
+      "title": "Устройство юрты (есть)",
+      "targetEngine": "M03",
+      "age": "4–7",
+      "status": "existing-game-needs-engine-adapter",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G04",
+      "number": 4,
+      "title": "Цвета",
+      "targetEngine": "M04",
+      "age": "3–4",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G05",
+      "number": 5,
+      "title": "Найди пару",
+      "targetEngine": "M05",
+      "age": "3–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G06",
+      "number": 6,
+      "title": "Домашние и дикие животные",
+      "targetEngine": "M06",
+      "age": "4–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G07",
+      "number": 7,
+      "title": "Собери картинку",
+      "targetEngine": "M07",
+      "age": "3–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G08",
+      "number": 8,
+      "title": "Учимся считать",
+      "targetEngine": "M08",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G09",
+      "number": 9,
+      "title": "Продолжи ряд",
+      "targetEngine": "M09",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G10",
+      "number": 10,
+      "title": "Волшебные карточки",
+      "targetEngine": "M10",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G11",
+      "number": 11,
+      "title": "Мой день",
+      "targetEngine": "M11",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G12",
+      "number": 12,
+      "title": "Что изменилось?",
+      "targetEngine": "M12",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G13",
+      "number": 13,
+      "title": "Где находится предмет?",
+      "targetEngine": "M13",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G14",
+      "number": 14,
+      "title": "Найди дорогу",
+      "targetEngine": "M14",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G15",
+      "number": 15,
+      "title": "Что произойдёт?",
+      "targetEngine": "M15",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G16",
+      "number": 16,
+      "title": "Геометрические фигуры",
+      "targetEngine": "M04",
+      "age": "3–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G17",
+      "number": 17,
+      "title": "Животные",
+      "targetEngine": "M04",
+      "age": "3–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G18",
+      "number": 18,
+      "title": "Национальные блюда",
+      "targetEngine": "M06",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G19",
+      "number": 19,
+      "title": "Времена года",
+      "targetEngine": "M05",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G20",
+      "number": 20,
+      "title": "Домашние и дикие птицы",
+      "targetEngine": "M06",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G21",
+      "number": 21,
+      "title": "Большой и маленький",
+      "targetEngine": "M04",
+      "age": "3–4",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G22",
+      "number": 22,
+      "title": "Высокий и низкий",
+      "targetEngine": "M04",
+      "age": "3–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G23",
+      "number": 23,
+      "title": "Оттенки цветов",
+      "targetEngine": "M06",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G24",
+      "number": 24,
+      "title": "Найди одинаковую текстуру",
+      "targetEngine": "M05",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G25",
+      "number": 25,
+      "title": "Геометрия вокруг нас",
+      "targetEngine": "M04",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G26",
+      "number": 26,
+      "title": "Силуэты и контуры",
+      "targetEngine": "M05",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G27",
+      "number": 27,
+      "title": "Где больше, где меньше?",
+      "targetEngine": "M08",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G28",
+      "number": 28,
+      "title": "Число и количество",
+      "targetEngine": "M05",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G29",
+      "number": 29,
+      "title": "Соседи числа",
+      "targetEngine": "M09",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G30",
+      "number": 30,
+      "title": "Сложение с картинками",
+      "targetEngine": "M08",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G31",
+      "number": 31,
+      "title": "Сравни по длине",
+      "targetEngine": "M06",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G32",
+      "number": 32,
+      "title": "Маршрут по стрелкам",
+      "targetEngine": "M14",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G33",
+      "number": 33,
+      "title": "Моя семья",
+      "targetEngine": "M04",
+      "age": "3–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G34",
+      "number": 34,
+      "title": "Кто что делает?",
+      "targetEngine": "M05",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G35",
+      "number": 35,
+      "title": "Кто где живёт?",
+      "targetEngine": "M05",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G36",
+      "number": 36,
+      "title": "Слушай и показывай",
+      "targetEngine": "M04",
+      "age": "3–5",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G37",
+      "number": 37,
+      "title": "Слова-противоположности",
+      "targetEngine": "M05",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G38",
+      "number": 38,
+      "title": "Один и много",
+      "targetEngine": "M04",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G39",
+      "number": 39,
+      "title": "Предлоги: на, под, за, перед",
+      "targetEngine": "M13",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G40",
+      "number": 40,
+      "title": "Узнай звук",
+      "targetEngine": "M04",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G41",
+      "number": 41,
+      "title": "Первый звук слова",
+      "targetEngine": "M04",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G42",
+      "number": 42,
+      "title": "Составь рассказ по картинкам",
+      "targetEngine": "M11",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G43",
+      "number": 43,
+      "title": "Вежливые слова",
+      "targetEngine": "M01",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G44",
+      "number": 44,
+      "title": "Что исчезло?",
+      "targetEngine": "M12",
+      "age": "4–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G45",
+      "number": 45,
+      "title": "Запомни последовательность",
+      "targetEngine": "M11",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G46",
+      "number": 46,
+      "title": "Найди подходящую тень",
+      "targetEngine": "M05",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G47",
+      "number": 47,
+      "title": "Кто спрятался?",
+      "targetEngine": "M12",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G48",
+      "number": 48,
+      "title": "Найди отличия",
+      "targetEngine": "M12",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G49",
+      "number": 49,
+      "title": "Погода и одежда",
+      "targetEngine": "M06",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G50",
+      "number": 50,
+      "title": "Как растёт растение?",
+      "targetEngine": "M15",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G51",
+      "number": 51,
+      "title": "Путешествие по городу",
+      "targetEngine": "M02",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G52",
+      "number": 52,
+      "title": "Морские обитатели",
+      "targetEngine": "M04",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G53",
+      "number": 53,
+      "title": "Береги природу",
+      "targetEngine": "M06",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G54",
+      "number": 54,
+      "title": "Узнай эмоцию",
+      "targetEngine": "M04",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G55",
+      "number": 55,
+      "title": "Правила дорожного движения",
+      "targetEngine": "M01",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G56",
+      "number": 56,
+      "title": "Гигиена и уход за собой",
+      "targetEngine": "M11",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G57",
+      "number": 57,
+      "title": "Учимся дружить и делиться",
+      "targetEngine": "M01",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G58",
+      "number": 58,
+      "title": "Безопасность с незнакомыми людьми",
+      "targetEngine": "M01",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G59",
+      "number": 59,
+      "title": "Безопасность дома",
+      "targetEngine": "M01",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G60",
+      "number": 60,
+      "title": "Собери казахский орнамент",
+      "targetEngine": "M07",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G61",
+      "number": 61,
+      "title": "Национальная одежда",
+      "targetEngine": "M05",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G62",
+      "number": 62,
+      "title": "Музыкальные инструменты Казахстана",
+      "targetEngine": "M04",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G63",
+      "number": 63,
+      "title": "Путешествие по Казахстану",
+      "targetEngine": "M02",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G64",
+      "number": 64,
+      "title": "Устройство домбры",
+      "targetEngine": "M03",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G65",
+      "number": 65,
+      "title": "Наурыз: традиции праздника",
+      "targetEngine": "M11",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G66",
+      "number": 66,
+      "title": "Собери дом из деталей",
+      "targetEngine": "M03",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G67",
+      "number": 67,
+      "title": "Продолжи орнамент",
+      "targetEngine": "M09",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G68",
+      "number": 68,
+      "title": "Построй волшебный город",
+      "targetEngine": "M03",
+      "age": "5–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G69",
+      "number": 69,
+      "title": "Музыкальные ритмы",
+      "targetEngine": "M09",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G70",
+      "number": 70,
+      "title": "Укрась комнату",
+      "targetEngine": "M03",
+      "age": "3–6",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G71",
+      "number": 71,
+      "title": "Собери транспорт",
+      "targetEngine": "M03",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    },
+    {
+      "id": "G72",
+      "number": 72,
+      "title": "Создай свой сад",
+      "targetEngine": "M03",
+      "age": "4–7",
+      "status": "planned",
+      "source": "MASTER:F"
+    }
+  ],
+  "additionalMaterials": [
+    {
+      "id": "A001",
+      "title": "По Семейскому региону",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A002",
+      "title": "Заповедники Казахстана",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A003",
+      "title": "Музей национальных традиций",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A004",
+      "title": "Город профессий",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A005",
+      "title": "Природа четырёх времён года",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A006",
+      "title": "Правила безопасного маршрута",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A007",
+      "title": "В гостях у мастеров",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:6.2",
+      "status": "planned"
+    },
+    {
+      "id": "A008",
+      "title": "Академия юных спасателей",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A009",
+      "title": "День профессий безопасности",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A010",
+      "title": "Безопасность начинается с меня",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A011",
+      "title": "Безопасный мир",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "partial"
+    },
+    {
+      "id": "A012",
+      "title": "Неделя безопасных привычек",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A013",
+      "title": "Что делать, если…?",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A014",
+      "title": "QR-квест для 4–5 лет",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A015",
+      "title": "Безопасный маршрут",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A016",
+      "title": "Почему это опасно?",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A017",
+      "title": "Форум маленьких экспертов",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A018",
+      "title": "Безопасность в объективе",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A019",
+      "title": "Миссия выполнима",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7",
+      "status": "planned"
+    },
+    {
+      "id": "A020",
+      "title": "Я потерялся",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7.1",
+      "status": "planned"
+    },
+    {
+      "id": "A021",
+      "title": "Незнакомая находка",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7.1",
+      "status": "planned"
+    },
+    {
+      "id": "A022",
+      "title": "Окна и балкон",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7.1",
+      "status": "planned"
+    },
+    {
+      "id": "A023",
+      "title": "Задымление и пожар",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7.1",
+      "status": "planned"
+    },
+    {
+      "id": "A024",
+      "title": "Пешеход",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7.1",
+      "status": "planned"
+    },
+    {
+      "id": "A025",
+      "title": "Экстренные службы Казахстана",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:7.1",
+      "status": "planned"
+    },
+    {
+      "id": "A026",
+      "title": "В поисках формулы здоровья",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A027",
+      "title": "Спасение королевства Чистоты",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A028",
+      "title": "Защитники здоровья",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A029",
+      "title": "Турнир чистых ладошек",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A030",
+      "title": "Неделя витаминов",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A031",
+      "title": "Чистые руки",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A032",
+      "title": "Тайна сахара",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A033",
+      "title": "От семечка до стола",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A034",
+      "title": "Игровая йога",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A035",
+      "title": "Эко-прогулка",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A036",
+      "title": "Физкультминутки",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A037",
+      "title": "Спокойное дыхание",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A038",
+      "title": "Пальчиковые упражнения",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A039",
+      "title": "Healthy-Fest",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:8",
+      "status": "planned"
+    },
+    {
+      "id": "A040",
+      "title": "Адал азамат — тәртіпті бала",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.1",
+      "status": "planned"
+    },
+    {
+      "id": "A041",
+      "title": "Помоги включиться в игру",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.2",
+      "status": "planned"
+    },
+    {
+      "id": "A042",
+      "title": "Как попросить игрушку",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.2",
+      "status": "planned"
+    },
+    {
+      "id": "A043",
+      "title": "Как сказать «стоп»",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.2",
+      "status": "planned"
+    },
+    {
+      "id": "A044",
+      "title": "Ждём очереди",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.2",
+      "status": "planned"
+    },
+    {
+      "id": "A045",
+      "title": "Договоримся без ссоры",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.2",
+      "status": "planned"
+    },
+    {
+      "id": "A046",
+      "title": "Что чувствует герой?",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.2",
+      "status": "planned"
+    },
+    {
+      "id": "A047",
+      "title": "Экскурсии по профессиям",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.3",
+      "status": "planned"
+    },
+    {
+      "id": "A048",
+      "title": "Мастерская «Строитель»",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.3",
+      "status": "planned"
+    },
+    {
+      "id": "A049",
+      "title": "Мастерская «Повар»",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.3",
+      "status": "planned"
+    },
+    {
+      "id": "A050",
+      "title": "Мастерская «Врач»",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.3",
+      "status": "planned"
+    },
+    {
+      "id": "A051",
+      "title": "Мастерская «Спасатель»",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.3",
+      "status": "planned"
+    },
+    {
+      "id": "A052",
+      "title": "Мастерская «Фермер»",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.3",
+      "status": "planned"
+    },
+    {
+      "id": "A053",
+      "title": "Таза Қазақстан",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A054",
+      "title": "Сортировка мусора",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A055",
+      "title": "Забота о воде",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A056",
+      "title": "Растения Казахстана",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A057",
+      "title": "Безопасное поведение в природе",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A058",
+      "title": "Сезонные изменения",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A059",
+      "title": "Бережное отношение к общим пространствам",
+      "kind": "scenario-or-activity",
+      "source": "ADDENDUM:9.4",
+      "status": "planned"
+    },
+    {
+      "id": "A060",
+      "title": "Паспорт игры",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "partial"
+    },
+    {
+      "id": "A061",
+      "title": "План одного занятия",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A062",
+      "title": "Недельная циклограмма",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A063",
+      "title": "Карточки предметов, действий, ролей и ситуаций",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A064",
+      "title": "Маршрутный лист квеста",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A065",
+      "title": "QR-коды и текстовые номера станций",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A066",
+      "title": "Памятка для семьи",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A067",
+      "title": "Групповой лист наблюдений",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    },
+    {
+      "id": "A068",
+      "title": "Истории «сначала — потом»",
+      "kind": "printable",
+      "source": "ADDENDUM:10.1",
+      "status": "planned"
+    }
+  ],
+  "notes": [
+    "Целевой движок не означает готовый движок.",
+    "Сценарии и активности не входят в подсчёт 72 игр.",
+    "Безопасный мир: первая реализация на существующих вопросах ЧС; гроза, незнакомая находка и отдельные ситуации с незнакомцем ещё не реализованы."
+  ]
+}
