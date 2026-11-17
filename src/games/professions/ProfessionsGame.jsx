@@ -15,9 +15,9 @@ function AnswerPicture({image}){
  const art=answerArt[image.split('/').pop()];
  return art?<Illustration src={asset(art.file)} cell={art.cell} columns={4} rows={4}/>:<Illustration src={asset(choiceImage(image))}/>;
 }
-export default function ProfessionsGame({lang,onBack,onPlaying}){
+export default function ProfessionsGame({lang,onBack,onPlaying,muted=true}){
  const [state,dispatch]=useReducer((s,a)=>reduceProfessionSession(s,a,data.professions),undefined,loadSession);
- const [dialog,setDialog]=useState(null),[storageOk,setStorageOk]=useState(true),[sound,setSound]=useState(false);
+ const [dialog,setDialog]=useState(null),[storageOk,setStorageOk]=useState(true);
  const heading=useRef(null),audio=useRef(null),u=text[lang];
  const prof=data.professions.find(p=>p.id===state.active);
  const orders=useMemo(()=>prof?.quiz.map(q=>shuffledIndices(q.choices.length))??[],[state.active,state.run]);
@@ -27,21 +27,22 @@ export default function ProfessionsGame({lang,onBack,onPlaying}){
  useEffect(()=>{heading.current?.focus();window.scrollTo({top:0,behavior:'instant'})},[state.phase,state.active,state.step]);
  useEffect(()=>{try{localStorage.setItem(STORAGE,JSON.stringify(state.done));setStorageOk(true)}catch{setStorageOk(false)}},[state.done]);
  useEffect(()=>()=>{audio.current?.close().catch(()=>{})},[]);
+ useEffect(()=>{if(muted&&audio.current){const ctx=audio.current;audio.current=null;ctx.close().catch(()=>{})}},[muted]);
  function answer(index){
   if(state.choice!==null)return;
   dispatch({type:'answer',index});
-  if(sound){try{
+  if(!muted){try{
    const Context=window.AudioContext||window.webkitAudioContext;
    const ctx=audio.current||(audio.current=new Context());
    ctx.resume().catch(()=>{});const oscillator=ctx.createOscillator(),gain=ctx.createGain();
    oscillator.frequency.value=q.choices[index].ok?660:330;gain.gain.setValueAtTime(.06,ctx.currentTime);gain.gain.exponentialRampToValueAtTime(.001,ctx.currentTime+.18);
    oscillator.connect(gain);gain.connect(ctx.destination);oscillator.onended=()=>{oscillator.disconnect();gain.disconnect()};oscillator.start();oscillator.stop(ctx.currentTime+.2);
-  }catch{setSound(false)}}
+  }catch{}}
  }
  function toMap(){if(state.phase==='play'){setDialog('leave')}else dispatch({type:'map'})}
  const dialogArt=<Illustration src={asset(portrait(prof?.id||'teacher'))}/>;
  return <main className="safety-page professions-page">
-  <div className="game-toolbar"><button className="quiet" onClick={onBack}>← {u.home}</button><div className="profession-tools">{state.phase!=='map'&&<button className="quiet" onClick={toMap}>{u.map}</button>}<button className="quiet sound-control" aria-pressed={sound} onClick={()=>setSound(v=>!v)}>{sound?u.soundOn:u.soundOff}</button></div></div>
+  <div className="game-toolbar"><button className="quiet" onClick={onBack}>← {u.home}</button><div className="profession-tools">{state.phase!=='map'&&<button className="quiet" onClick={toMap}>{u.map}</button>}</div></div>
   {state.phase==='map'?<section className="panel profession-map-panel">
    <div className="profession-title-row"><div><h1 ref={heading} tabIndex={-1}>{u.title}</h1><p>{u.intro}</p></div><span className="profession-progress">{u.progress}: <b>{state.done.length} / 7</b></span></div>
    <p className="map-hint">{u.hint}</p>
