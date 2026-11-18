@@ -929,7 +929,8 @@
       "title": "Адал азамат — тәртіпті бала",
       "kind": "scenario-or-activity",
       "source": "ADDENDUM:9.1",
-      "status": "planned"
+      "status": "implemented-chapter",
+      "route": "#/journeys/safe-world/adal-azamat"
     },
     {
       "id": "A041",
