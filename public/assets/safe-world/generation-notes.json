@@ -1,0 +1,62 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-11-19",
+  "map": {
+    "style": "rich polished 3D animated movie toy world; sunny Kazakh foothills, turquoise river, flowers and ornaments; no text or people",
+    "destinations": [
+      "kindergarten welcome gate",
+      "cutaway toy house",
+      "police help kiosk",
+      "picnic tree with bench",
+      "book pavilion with backpack",
+      "festive gazebo"
+    ],
+    "actual_coordinates": [
+      [
+        17,
+        83
+      ],
+      [
+        39,
+        65
+      ],
+      [
+        22,
+        38
+      ],
+      [
+        50,
+        36
+      ],
+      [
+        71,
+        58
+      ],
+      [
+        86,
+        30
+      ]
+    ],
+    "source": "exec-564d7d11-c423-4413-85ff-d8eee79fe5ca.png"
+  },
+  "atlas": {
+    "columns": 4,
+    "rows": 3,
+    "style": "rich 3D Central Asian preschool characters; no text or graphic injuries",
+    "cells": [
+      "teacher welcomes children",
+      "unknown man inviting hesitant child away",
+      "child asks policewoman at safe bench",
+      "child walks off alone",
+      "child tells teacher about broken toy",
+      "child reaches for broken toy",
+      "child opens window alone while standing on floor",
+      "child asks mother about closed window",
+      "stop and do not touch broken toy",
+      "step away from broken toy",
+      "tell teacher",
+      "seated rest and stretch with teacher"
+    ],
+    "source": "exec-404bf96f-992a-4d33-ac8e-316a2c4bc2e8.png"
+  }
+}

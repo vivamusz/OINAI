@@ -51,3 +51,18 @@ test('coverage preserves 72 numbered games separately from additional scenarios'
  assert.ok(c.additionalMaterials.some(a=>a.title==='Адал азамат — тәртіпті бала'));
  assert.equal(routeFromHash('#/journeys/safe-world'),'safe-world');
 });
+
+test('visual sequence, safe backpack and legacy progress survive reload',()=>{
+ let s=act(initialJourney(),{type:'start'});s=act(s,{type:'jump',index:2});
+ assert.equal(act(s,{type:'confirm'}),s);
+ s=act(s,{type:'sequence',item:2});assert.deepEqual(s.visual.sequence,[]);assert.equal(s.visual.sequenceError,true);
+ for(const item of [0,1,2])s=act(s,{type:'sequence',item});
+ assert.deepEqual(s.visual.sequence,[0,1,2]);assert.deepEqual(restoreJourney(JSON.stringify(s)),s);
+ s=act(s,{type:'confirm'});assert.equal(s.status.discussion,'completed');
+ s=act(s,{type:'jump',index:4});s=act(s,{type:'pack',item:3});assert.equal(s.visual.packError,true);assert.deepEqual(s.visual.packed,[]);
+ for(const item of [2,0,1])s=act(s,{type:'pack',item});assert.equal(act(s,{type:'pack',item:1}),s);
+ s=act(s,{type:'confirm'});assert.equal(s.status.printable,'completed');assert.deepEqual(restoreJourney(JSON.stringify(s)),s);
+ const legacy={...s};delete legacy.visual;assert.equal(restoreJourney(JSON.stringify(legacy)).status.printable,'completed');
+ assert.deepEqual(restoreJourney(JSON.stringify({...s,visual:{...s.visual,sequence:[2]}})),initialJourney());
+ s=act(s,{type:'pause'});assert.equal(act(s,{type:'pack',item:0}),s);
+});

@@ -1,7 +1,8 @@
+import {initialVisual,restoreVisual,reduceVisual} from './visual-session.js';
 import {journey,questions} from './data.js';
 const statuses=['notStarted','completed','skipped'];
 export const STORAGE='oinai-journey-safe-world-v1';
-export const initialJourney=()=>({version:1,journeyId:journey.id,phase:'intro',index:0,paused:false,status:Object.fromEntries(journey.activities.map(a=>[a.id,'notStarted'])),quiz:{index:0,choice:null,feedback:null}});
+export const initialJourney=()=>({version:1,journeyId:journey.id,phase:'intro',index:0,paused:false,status:Object.fromEntries(journey.activities.map(a=>[a.id,'notStarted'])),quiz:{index:0,choice:null,feedback:null},visual:initialVisual()});
 export function reduceJourney(s,a){
  if(a.type==='reset')return initialJourney();
  if(a.type==='start')return s.phase==='intro'?{...s,phase:'active'}:s;
@@ -15,6 +16,8 @@ export function reduceJourney(s,a){
  if(a.type==='jump')return Number.isInteger(a.index)&&a.index>=0&&a.index<journey.activities.length?{...s,index:a.index}:s;
  if(a.type==='skip')return advance({...s,status:{...s.status,[step.id]:s.status[step.id]==='completed'?'completed':'skipped'}});
  if(a.type==='next')return s.status[step.id]!=='notStarted'?advance(s):s;
+ if(['sequence','pack','reflect'].includes(a.type)){if(s.status[step.id]==='completed')return s;const visual=reduceVisual(s.visual,a,step.id);return visual===s.visual?s:{...s,visual};}
+ if(a.type==='confirm'&&((step.id==='discussion'&&s.visual.sequence.length<3)||(step.id==='printable'&&s.visual.packed.length<3)))return s;
  if(a.type==='confirm')return step.type!=='game'?{...s,status:{...s.status,[step.id]:'completed'}}:s;
  if(step.type!=='game'||s.status.choices==='completed')return s;
  const q=questions[s.quiz.index];if(!q)return s;
@@ -40,6 +43,6 @@ export function restoreJourney(raw){
   else{const question=questions[q.index];if(!question||!Number.isInteger(q.choice)||q.choice<0||q.choice>=question.options.length||q.feedback!==(q.choice===question.correct?'correct':'retry'))throw Error();}
   if(v.phase==='intro'&&(v.index!==0||v.paused||q.index!==0||q.choice!==null||Object.values(v.status).some(x=>x!=='notStarted')))throw Error();
   if(v.phase==='complete'&&v.paused)throw Error();
-  return {version:1,journeyId:journey.id,phase:v.phase,index:v.index,paused:v.paused,status:Object.fromEntries(journey.activities.map(a=>[a.id,v.status[a.id]])),quiz:{index:q.index,choice:q.choice,feedback:q.feedback}};
+  return {version:1,journeyId:journey.id,phase:v.phase,index:v.index,paused:v.paused,status:Object.fromEntries(journey.activities.map(a=>[a.id,v.status[a.id]])),quiz:{index:q.index,choice:q.choice,feedback:q.feedback},visual:restoreVisual(v.visual)};
  }catch{return initialJourney();}
 }
