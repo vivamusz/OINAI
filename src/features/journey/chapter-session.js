@@ -1,5 +1,5 @@
 export function createChapterSession(definition){
- const initial=()=>({version:definition.version,chapterId:definition.id,phase:'intro',active:0,paused:false,stations:Object.fromEntries(definition.stations.map(s=>[s.id,{status:'notStarted',index:0,choice:null,feedback:null,signal:null}]))});
+ const initial=()=>({version:definition.version,chapterId:definition.id,phase:'intro',active:0,paused:false,stations:Object.fromEntries(definition.stations.map(s=>[s.id,{status:'notStarted',index:0,choice:null,feedback:null,signal:null,placed:[],attemptItem:null}]))});
  function reduce(s,a){
   if(a.type==='reset')return initial();
   if(a.type==='start')return s.phase==='intro'?{...s,phase:'active'}:s;
@@ -19,6 +19,15 @@ export function createChapterSession(definition){
    if(a.type==='confirm')return update({status:'completed'});
    return s;
   }
+  if(station.kind==='sort'||station.kind==='match'){
+   if(a.type==='retry'&&current.feedback==='retry'||a.type==='nextQuestion'&&current.feedback==='correct')return update({choice:null,feedback:null,attemptItem:null});
+   if(current.status==='completed'||current.choice!==null)return s;
+   if(a.type==='answer')a={type:'place',item:current.index,target:a.index};
+   if(a.type!=='place'||!Number.isInteger(a.item)||!station.questions[a.item]||current.placed.includes(a.item))return s;
+   const item=station.questions[a.item];if(!Number.isInteger(a.target)||a.target<0||a.target>=item.options.length)return s;
+   if(a.target!==item.correct)return update({attemptItem:a.item,choice:a.target,feedback:'retry'});
+   const placed=[...current.placed,a.item];return update({placed,index:placed.length,attemptItem:a.item,choice:a.target,feedback:'correct',status:placed.length===station.questions.length?'completed':'notStarted'});
+  }
   if(current.status==='completed')return s;
   const q=station.questions[current.index];if(!q)return s;
   if(a.type==='answer'&&current.choice===null&&Number.isInteger(a.index)&&a.index>=0&&a.index<q.options.length)return update({choice:a.index,feedback:a.index===q.correct?'correct':'retry'});
@@ -33,13 +42,21 @@ export function createChapterSession(definition){
    const result={...initial(),phase:v.phase,active:v.active,paused:v.paused};
    for(const station of definition.stations){
     const r=v.stations?.[station.id];if(!r||!['notStarted','completed','skipped'].includes(r.status)||!Number.isInteger(r.index)||r.index<0||r.index>station.questions.length)throw Error();
-    if(station.kind==='choice'){
+    const visual=station.kind==='sort'||station.kind==='match';
+    const placed=visual?(r.placed??Array.from({length:r.index},(_,i)=>i)):[];
+    const attemptItem=visual?(r.attemptItem??null):null;
+    if(visual){
+     if(!Array.isArray(placed)||placed.length!==r.index||new Set(placed).size!==placed.length||placed.some(i=>!Number.isInteger(i)||!station.questions[i])||(r.status==='completed')!==(r.index===station.questions.length)||r.signal!==null)throw Error();
+     if(attemptItem!==null){const q=station.questions[attemptItem];if(!Number.isInteger(attemptItem)||!q||!Number.isInteger(r.choice)||!q.options[r.choice]||r.feedback!==(r.choice===q.correct?'correct':'retry')||placed.includes(attemptItem)!==(r.feedback==='correct'))throw Error();}
+     else if(r.placed!==undefined&&(r.choice!==null||r.feedback!==null))throw Error();
+    }else if(station.kind==='choice'){
      if((r.status==='completed')!==(r.index===station.questions.length)||r.signal!==null)throw Error();
      if(r.choice===null){if(r.feedback!==null)throw Error();}
      else{const q=station.questions[r.index];if(!q||!Number.isInteger(r.choice)||r.choice<0||r.choice>=q.options.length||r.feedback!==(r.choice===q.correct?'correct':'retry'))throw Error();}
     }else if(r.index!==0||r.choice!==null||r.feedback!==null||(r.signal!==null&&(!Number.isInteger(r.signal)||!station.signals[r.signal])))throw Error();
     if(v.phase==='intro'&&(v.active!==0||r.status!=='notStarted'||r.index!==0||r.choice!==null||r.signal!==null))throw Error();
-    result.stations[station.id]={status:r.status,index:r.index,choice:r.choice,feedback:r.feedback,signal:r.signal};
+    result.stations[station.id]={status:r.status,index:r.index,choice:r.choice,feedback:r.feedback,signal:r.signal,placed,attemptItem};
+    if(visual&&attemptItem===null){result.stations[station.id].choice=null;result.stations[station.id].feedback=null;}
    }
    return result;
   }catch{return initial();}

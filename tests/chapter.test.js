@@ -31,3 +31,18 @@ test('all 17 questions and five stations are bilingual and valid',()=>{
  assert.equal(chapter.stations.length,5);assert.equal(chapter.stations.reduce((n,s)=>n+s.questions.length,0),17);
  for(const s of chapter.stations){for(const lang of ['kk','ru'])assert.ok(s.title[lang]&&s.instruction[lang]);for(const q of s.questions){assert.ok(q.options[q.correct]);for(const lang of ['kk','ru'])assert.ok(q.prompt[lang]&&q.explanation[lang]&&q.options.every(o=>o[lang]));}}
 });
+
+test('picture placement allows arbitrary order, blocks duplicates and restores feedback',()=>{
+ let s=act(engine.initial(),{type:'start'});
+ s=act(s,{type:'place',item:4,target:1});assert.equal(s.stations.honesty.index,0);
+ assert.deepEqual(engine.restore(JSON.stringify(s)),s);
+ s=act(s,{type:'retry'});s=act(s,{type:'place',item:4,target:0});
+ assert.deepEqual(s.stations.honesty.placed,[4]);assert.deepEqual(engine.restore(JSON.stringify(s)),s);
+ s=act(s,{type:'nextQuestion'});assert.equal(act(s,{type:'place',item:4,target:0}),s);
+ for(const i of [2,0,3,1]){s=act(s,{type:'place',item:i,target:chapter.stations[0].questions[i].correct});s=act(s,{type:'nextQuestion'});}
+ assert.equal(s.stations.honesty.status,'completed');assert.deepEqual(engine.restore(JSON.stringify(s)),s);
+});
+test('legacy sequential progress migrates without resetting the chapter',()=>{
+ const s=act(engine.initial(),{type:'start'});for(const r of Object.values(s.stations)){delete r.placed;delete r.attemptItem;}
+ s.stations.honesty.index=2;const restored=engine.restore(JSON.stringify(s));assert.equal(restored.phase,'active');assert.deepEqual(restored.stations.honesty.placed,[0,1]);
+});
